@@ -10,14 +10,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fluko.cloud.orderservice.entity.OrderEntity;
 import com.fluko.cloud.orderservice.repository.OrderRepository;
 
 @RestController
-@RequestMapping("/store")
 public class OrderController {
 	
 
